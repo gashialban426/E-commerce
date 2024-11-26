@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="Home">
+
+        <header>
+            <p>WE OFFER YOU CLAS</p>
+            <!---- <p>UP TO 50% OFF</p> ---->
+        </header>
+
+        <div class="navbar">
+
+            <nav>
+                <div id="logo">
+                    <p><a href="" id="href">hyde</a></p>
+                </div>
+
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <div class="Login">
+                    <input type="search" id="srch" name="srch" placeholder="Search...">
+                    <a href=""><img src="./icon/bag1con.png" alt="bag"></a>
+                    <a href=""><img src="././icon/pro1con.png" alt="Login"></a>
+                </div>
+            </nav>
+        </div>
+
+        <section>
+            <p>WIN <a style="background-color: lightgreen;">50$</a> TICKET <a href=""> REGISTER NOW</a></p>
+        </section>
+
+        <aside>
+            <div class="middle">
+
+                <img src="./fotot/pexels-darina-belonogova-7897125.jpg" alt="background-img">
+
+                <div class="caption">
+                    <p>let us be your partner in clothing cabin</p>
+                    <p id="notw">We offer you Clas</p>
+                    <a href="">explore now</a>
+                </div>
+
+            </div>
+        </aside>
+
+        <article>
+            <div class="n-titull">
+                <p>Last Posted</p>
+            </div>
+            <hr>
+
+            <aside id="rreshti">
+                <div class="sh-majt">
+                    <img src="./icon/shigjeta-mj.png" alt="">
+                </div>
+
+                <div class="col-4">
+                    <img src="./fotot/products/img.jpg30.jpg" alt="">
+                </div>
+
+                <div class="col-4">
+                    <img src="./fotot/products/img.jpg29.jpg" alt="">
+                </div>
+
+                <div class="col-4">
+                    <img src="./fotot/products/img.jpg33.jpg" alt="">
+                </div>
+
+                <div class="col-4">
+                    <img src="./fotot/products/img.jpg34.jpg" alt="">
+                </div>
+
+                <div class="sh-djatht">
+                    <img src="./icon/shigjeta-dj.png" alt="">
+                </div>
+            </aside>
+
+        </article>
+
+        <div class="special-pro">
+
+            <div class="img">
+                <img src="./fotot/pexels-luchik-15030875.jpg" alt="">
+            </div>
+
+            <div class="text">
+                <h1>have you ever heard about style?</h1>
+                <p>Step into a world where style meets simplicity. Syle isn’t just a trend, it’s a way of
+                    life.
+                    From timeless fashion pieces to modern essentials, we bring you everything to elevate your
+                    everyday.
+                    Discover the perfect blend of elegance and practicality, all in one place.</p>
+
+                <a href="">explore_more</a>
+            </div>
+
+        </div>
+
+        <div class="brands">
+            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+        </div>
+
+        <footer>
+            <div class="col-3">
+                <h1>Download Our App</h1>
+                <p>Download App for Android and ios mobile phone.</p>
+                <img src="./icon/apple-icon.png" alt="">
+                <img src="./icon/google-play-icon.png" alt="">
+
+            </div>
+
+            <div class="col-2">
+                <h1>HYDE</h1>
+                <p>Our goal is to constantly make our customers satisfied with our products.</p>
+            </div>
+
+            <div class="col-1">
+                <h1>Follow Us</h1>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>LinkedIn</p>
+                <p>X</p>
+            </div>
+
+            <div class="pjesa-d">
+                <h1>Links</h1>
+                <p>Coupons</p>
+                <p>Blog Post</p>
+                <p>Return Policy</p>
+                <p>Join Affiliate</p>
+
+            </div>
+        </footer>
+
+        <div class="cc">
+            <hr>
+            <p>©all cc rights reserved - <a style="color: blue;"> H Y D E</a></p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
