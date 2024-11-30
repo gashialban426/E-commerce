@@ -433,7 +433,6 @@ margin: auto;
   border: 1px solid black;
 }
 .kryesore,
-.k-1, 
 .k-2, 
 .k-3{
   height: 100%;
@@ -447,7 +446,6 @@ margin: auto;
   width: 100%;
   object-fit: cover;
 }
-.k-1,
 .k-2,
 .k-3{
  position: absolute;
