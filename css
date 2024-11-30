@@ -433,13 +433,9 @@ margin: auto;
   border: 1px solid black;
 }
 .kryesore,
-.k2,
-.k3{
   height: 100%;
   width: 80%;
   margin: auto;
-  position: absolute;
-  border: 1px solid red;
 }
 .kryesore img{
   height: 100%;
