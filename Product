@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="Home">
+
+        <header>
+            <div class="p1">
+                <p>WE OFFER QUALITY</p>
+            </div>
+
+            <div class="p2">
+                <p>UP TO 50% OFF</p>
+            </div>
+
+            <div class="p3">
+                <p>REGISTER NOW</p>
+            </div>
+        </header>
+
+        <div class="navbar">
+
+            <nav>
+                <div id="logo">
+                    <p><a href="" id="href">hyde</a></p>
+                </div>
+
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./product.html">Product</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+
+                <div class="Login">
+
+                    <li><a href="./Login.html">Log in</a></li>
+                    <li><a href="./Signup.html">Sign up</a></li>
+
+                </div>
+            </nav>
+        </div>
+
+        <section>
+            <p>WIN <a style="background-color: lightgreen;">50$</a> TICKET <a href="./Signup.html"> REGISTER NOW</a></p>
+        </section>
+
+        <article>
+            <div class="n-titull">
+                <p>Men's wears</p>
+                <hr>
+            </div>
+
+            <div class="col-6">
+
+                <div class="product">
+                    <a href="./single-product4.html"><img
+                            src="./fotot/products/29_e81e84e0-d783-4339-b360-899e2493ca4e_900x.jpg"></a>
+                    <h1>Ecru Knitted Crewneck</h1>
+                    <p>50.95<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product6.html"><img
+                            src="./fotot/products/Aurelien_voyager_city_loafer_softey_suede_beige_men_1.jpg"></a>
+                    <h1>Beige Voyager City Loafer</h1>
+                    <p>49,99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product3.html"><img src="./fotot/products/5121beige_1_800x.jpg"></a>
+                    <h1>Fedro Casual Pants</h1>
+                    <p>79,20<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product5.html"><img src="./fotot/products/pallta.jpg"></a>
+                    <h1>The Jersey Wool Coat</h1>
+                    <p>152,95<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product7.html"><img src="./fotot/products/xhamperi.jpg"></a>
+                    <h1>Light Beige Winter Sweater</h1>
+                    <p>89,99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product2.html"><img
+                            src="./fotot/products/LOOK12TheMonochromeHoodNavyMonochrome3.jpg"></a>
+                    <h1>The Monochrome Hood</h1>
+                    <p>182,95<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product1.html"><img src="./fotot/products/bluza.JPG"></a>
+                    <h1>The Renzo Half Zip Sweater</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href="./single-product8.html "><img src="./fotot/products/ora.JPG"></a>
+                    <h1>Chenxi Steel Watch</h1>
+                    <p>49,95<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+            </div>
+
+        </article>
+
+        <div class="special-pro">
+
+            <div class="img">
+                <img src="./fotot/products/Capture.JPG" alt="">
+            </div>
+
+            <div class="text">
+                <h1>have you ever heard about style?</h1>
+                <p>Step into a world where style meets simplicity. Syle isn’t just a trend, it’s a way of
+                    life.
+                    From timeless fashion pieces to modern essentials, we bring you everything to elevate your
+                    everyday.
+                    Discover the perfect blend of elegance and practicality, all in one place.</p>
+
+                <a href="">explore_more</a>
+            </div>
+
+        </div>
+
+        <article>
+            <div class="n-titull">
+                <p>Women's wears</p>
+                <hr>
+            </div>
+
+            <div class="col-6">
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/womensh.png"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/jacketwo.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/setwo.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/woshoes.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/acswo.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/pantswo.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/womenpa.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+                <div class="product">
+                    <a href=""><img src="./fotot/products/bagwo.jpg"></a>
+                    <h1>Product Name</h1>
+                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                </div>
+
+            </div>
+
+        </article>
+
+        <div class="special-pro">
+
+            <div class="img-2">
+                <img src="./fotot/products/woset2.jpg" alt="">
+            </div>
+
+            <div class="text">
+                <h1>have you ever heard about style?</h1>
+                <p>Step into a world where style meets simplicity. Syle isn’t just a trend, it’s a way of
+                    life.
+                    From timeless fashion pieces to modern essentials, we bring you everything to elevate your
+                    everyday.
+                    Discover the perfect blend of elegance and practicality, all in one place.</p>
+
+                <a href="">explore_more</a>
+            </div>
+
+        </div>
+
+        <div class="brands">
+            <img src="./Logo/NOBA.jpg" alt="">
+            <img src="./Logo/Belier.jpg" alt="">
+            <img src="./Logo/Lestrage.jpg" alt="">
+            <img src="./Logo/ICON.jpg" alt="">
+            <img src="./Logo/Nohow.jpg" alt="">
+            <img src="./Logo/aurelien.jpg" alt="">
+            <img src="./Logo/Zara.jpg" alt="">
+        </div>
+
+        <footer>
+            <div class="col-3">
+                <h1>Download Our App</h1>
+                <p>Download App for Android and ios mobile phone.</p>
+                <img src="./icon/apple-icon.png" alt="">
+                <img src="./icon/google-play-icon.png" alt="">
+
+            </div>
+
+            <div class="col-2">
+                <h1>HYDE</h1>
+                <p>Our goal is to constantly make our customers satisfied with our products.</p>
+            </div>
+
+            <div class="col-1">
+                <h1>Follow Us</h1>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>LinkedIn</p>
+                <p>X</p>
+            </div>
+
+            <div class="pjesa-d">
+                <h1>Links</h1>
+                <p>Coupons</p>
+                <p>Blog Post</p>
+                <p>Return Policy</p>
+                <p>Join Affiliate</p>
+
+            </div>
+        </footer>
+
+        <div class="cc">
+            <hr>
+            <p>©all cc rights reserved - <a style="color: blue;"> H Y D E</a></p>
+        </div>
+
+    </div>
+</body>
+
+</html>
