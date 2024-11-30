@@ -433,27 +433,26 @@ margin: auto;
   border: 1px solid black;
 }
 .kryesore,
+.k-1, 
+.k-2, 
+.k-3{
   height: 100%;
   width: 80%;
   margin: auto;
 }
-.kryesore img{
+.kryesore img,
+.k-1 img,
+.k-2 img,
+.k-3 img{
   height: 100%;
   width: 100%;
   object-fit: cover;
   position: absolute;
 }
-.k2 img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
-}
-.k3 img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
+.k-1,
+.k-2,
+.k-3{
+ position: absolute;
 }
 .inf{
   height: 60%;
