@@ -3,8 +3,6 @@
   font-family: 'Cabin', sans-serif;
 }
 body{
-  max-height: 100%;
-  max-width: 100%;
   background-color: white;
   padding: auto;
   margin: auto;
@@ -15,12 +13,16 @@ header{
   width: 100%;
   position: relative;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-header p{
+header .p1,
+ .p2, 
+ .p3{
+  position: absolute;
   color: white;
-  position: relative;
-  font-size: 13px;
-  margin: auto;
+  font-size: 14px;
 }
 .navbar{
   width: 100%;
@@ -91,20 +93,21 @@ nav a:hover{
   right: 1%;
   margin-top: 25px;
 }
-.Login img{
-  height: 18px;
-  padding: 0px  13px;
+.Login ul{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding: 0px;
+  height: 62px;
+  position: relative;
 }
-.Login input{
+.Login li{
   margin: auto;
-  padding: 2px 10px 2px 1px;
-  width: 100%;
-  margin-right: 13px;
-  border: 1px solid black;
-}
-.Login input::after{
-  border-style: none;
-  border: 1px solid blacks;
+  list-style: none;
+  margin: auto;
+  letter-spacing: 1.5px;
+  padding: 0px 20px;
+  font-size: 16px;
 }
 section{
   position: relative;
@@ -177,23 +180,17 @@ aside{
   color: #b9b9b9;
   transition: 0.5s ease;
 }
+/*--------Slider---------*/
 article{
   height: auto;
-  width: 100%;
+  width: 90%;
   margin: auto;
   position: relative;
+ margin-top: 30px;
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  position: relative;
   flex-wrap: wrap;
-}
-article hr{
-  position: relative;
-  border: 1px solid black;
-  width: 33%;
-  right: 31%;
-  margin-top: 0px;
 }
 article .n-titull{
   height: 50px;
@@ -208,58 +205,86 @@ article .n-titull{
   margin-left: 2.5%;
   padding: 0;
 }
+.n-titull hr{
+  border: 1px solid black;
+  width: 80%;
+  margin:0px;
+}
 #rreshti{
   position: relative;
-  width: 95%;
-  height: auto;
+  width: 100%;
+  height: 280px;
   flex-wrap: nowrap;
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 50px;
-  border: 1px solid black;
 }
-
+.border{
+  border: 1px solid black;
+  width: 100%;
+  height: 280px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
 #rreshti .sh-majt, .sh-djatht{
   height: 100%;
-  width: 50px;
+  width: 40px;
   display: flex;
   align-items: center;
-  border: 1px solid black;
 }
 #rreshti .sh-majt img, .sh-djatht img{
- height: 30px;
+ height: 28px;
  width: auto;
  margin: auto;
+margin-left: 15px;
 }
 .col-4{
   height: 280px;
   width: 200px;
-  margin: auto;
   display: flex;
+  flex-direction: row;
 }
  .col-4 img{
   object-fit: cover;
   height: 100%;
-  width: 100%;
+  width: 200px;
 }
+/*---------Special Product----------*/
 .special-pro{
-  height: 600px;
-  width: 100%;
+  height: 500px;
+  width: 90%;
   margin: auto;
   position: relative;
   display: flex;
   flex-direction: row;
   font-family: 'Cabin', sans-serif;
-  background-color: #FDFDFD;
+  background-color: #ffffff;
 
 }
 .img{
   height: 85%;
   width: 30%;
   margin: auto;
+  display: flex;
 }
 .img img{
-  height: 100%;
+  height: 85%;
+  width: 100%;
+margin: auto;
+  object-fit: cover;
+}
+.img-2{
+  height: 80%;
+  width: 30%;
+  margin: auto;
+  display: flex;
+}
+.img-2 img{
+  height: 90%;
+  margin: auto;
   width: 100%;
   object-fit: cover;
 }
@@ -286,21 +311,288 @@ article .n-titull{
   color: #5f5f5f;
   transition: 0.5s ease;
 }
+/*----------Logo-----------*/
 .brands{
   height: 100px;
   width: 100%;
   margin: auto;
   display: flex;
+  gap:0;
   flex-direction: row;
 }
 .brands img{
-  height: 50px;
+  height: 45px;
   width: auto;
   margin: auto;
 }
+/*--------------About-------------*/
+#About{
+  height: 520px;
+  width: 100%;
+  margin: auto;
+  position: relative; 
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+.Amiddle{
+  height: 50%;
+  width: 90%;
+  margin: auto;
+}
+.Amiddle h1{
+  font-size: 26px;
+  height: 20px;
+}
+.Amiddle p{
+  font-size: 18px;
+}
+/*---------------Product----------------*/
+.col-6{
+  width: 94%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product{
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 7px;
+  overflow: hidden;
+  filter: brightness(90%);
+}
+.product:hover{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+.product img{
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+}
+.product h1{
+  font-size: 20px;
+  margin: 0px;
+}
+.product p{
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+  width: auto;
+}
+/*----------------Single Product----------------*/
+.Product{
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.foto{
+  height: 80%;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative ;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.kolona{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 5px;
+  align-items: center;
+}
+.kolona img{
+  margin: 0px;
+  height: 90px;
+  width: 80%;
+  object-fit: cover;
+  filter:contrast(75%);
+  cursor: pointer;
+}
+.kolona img:hover{
+  filter: contrast(100%);
+  transition: .5s ease;
+}
+.kolona img::after{
+  border: 1px solid black;
+}
+.kryesore,
+.k2,
+.k3{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  border: 1px solid red;
+}
+.kryesore img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.k2 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.k3 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.inf{
+  height: 60%;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.inf h1{
+  color: black;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+.inf a{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: none;
+}
+.inf p{
+  color: black;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.inf select{
+  width: 90px;
+  height: 20px;
+  font-size: 14px;
+  border: 1px solid black;
+  margin-bottom: 5px;
 
-
-
+}
+.inf input{
+  width: 40px;
+  height: 20px;
+  border: 1px solid black;
+  margin-bottom: 0px;
+}
+.inf .btn{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(105, 162, 198);
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+}
+.inf .btn:hover{
+  transition: .5s ease;
+  color: white;
+  background-color: lightskyblue;
+}
+/*-------------Login--------------*/
+.Mesi{
+  height: 585px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.Lmiddle{
+  height: 80%;
+  width: 30%;
+  margin: auto;
+}
+fieldset{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+}
+.input{
+  height: 60%;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.input p{
+  color: #5f5f5f;
+  font-size:14px;
+  float: right;
+  height: 0%;
+  width: auto;  
+  text-align: right;
+  margin-top: 10px;
+}
+fieldset p{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+fieldset input{
+  height: 35px;
+  width: auto;
+  font-size: 14px;
+  font-family: 'Cabini', sans-serif;
+  margin-top: 0px;
+}
+fieldset #label{
+  margin-top: 15px;
+}
+fieldset label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+fieldset a{
+  height: 30px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 30px;
+ text-align: center;
+  margin: auto;
+  background-color: #ebeaea;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 5px;
+}
+fieldset a:hover{
+  background-color: #5f5f5f;
+  color: white;
+  transition: 0.5s ease;
+}
+/*------------footer-------------*/
 footer{
   background-color: #121212;
   height: 180px;
@@ -381,5 +673,68 @@ footer{
   color: white;
   margin: auto;
   margin-bottom: 50px;
+}
+/*-----------Keyframe-animation------------*/
+
+header .p1{
+  animation: txtanimation 10s linear infinite;
+}
+header .p2{
+  animation: txtanimation2 10s linear infinite;
+}
+header .p3{
+  animation: txtanimation3 10s linear infinite;
+}
+
+@keyframes txtanimation{
+  0%{
+    visibility: visible;
+  }
+  25%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: hidden;
+  }
+  75%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes txtanimation2{
+  0%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: visible;
+  }
+  75%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes txtanimation3{
+  0%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: hidden;
+  }
+  75%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: visible;
+  }
 }
 
