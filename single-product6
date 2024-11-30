@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="Home">
+
+        <header>
+            <div class="p1">
+                <p>WE OFFER QUALITY</p>
+            </div>
+
+            <div class="p2">
+                <p>UP TO 50% OFF</p>
+            </div>
+
+            <div class="p3">
+                <p>REGISTER NOW</p>
+            </div>
+        </header>
+
+        <div class="navbar">
+
+            <nav>
+                <div id="logo">
+                    <p><a href="" id="href">hyde</a></p>
+                </div>
+
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./product.html">Product</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+
+                <div class="Login">
+
+                    <li><a href="./Login.html">Log in</a></li>
+                    <li><a href="./Signup.html">Sign up</a></li>
+
+                </div>
+            </nav>
+
+        </div>
+
+        <section>
+            <p>WIN <a style="background-color: lightgreen;">50$</a> TICKET <a href="./Signup.html"> REGISTER NOW</a></p>
+        </section>
+
+        <aside>
+            <div class="Product">
+                <div class="foto">
+
+                    <div class="kolona">
+                        <img src="./single-product6/Aurelien_voyager_city_loafer_softey_suede_beige_men_10.webp" alt="">
+                        <img src="./single-product6/Aurelien_voyager_city_loafer_softey_suede_beige_men_2.webp" alt="">
+                        <img src="./single-product6/Aurelien_voyager_city_loafer_softey_suede_beige_men_5.webp" alt="">
+                    </div>
+
+                    <div class="kryesore">
+                        <img src="./fotot/products/Aurelien_voyager_city_loafer_softey_suede_beige_men_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="inf">
+                    <h1>Beige Voyager City Loafer with Fur</h1>
+                    <p>49,99<a href="" style="background-color: lightgreen;">$</a></p>
+                    <p>-The Aurélien Voyager City Loafer has been crafted from supple suede with warm fur linings.
+                        The upper of the shoe is stitched to the midsole using a special technique.
+                        The result is a suede trimmed sole which flawlessly integrates into the design of the shoe.
+                        With its plush suede and meticulous construction the Voyager City Loafer represents a
+                        contemporary approach to luxury. </p>
+                    <select>
+                        <option>Select size</option>
+                        <option>44</option>
+                        <option>43</option>
+                        <option>42</option>
+                        <option>41</option>
+                        <option>40</option>
+                    </select>
+
+                    <input type="number" value="1">
+                    <a href="" class="btn">Buy now</a>
+
+                </div>
+            </div>
+        </aside>
+
+        <article>
+            <div class="n-titull">
+                <p>Last Posted</p>
+                <hr>
+            </div>
+
+            <aside id="rreshti">
+                <div class="sh-majt">
+                    <a href=""><img src="./icon/shigjeta-mj.png" alt=""></a>
+                </div>
+
+                <div class="border">
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/29_e81e84e0-d783-4339-b360-899e2493ca4e_900x.jpg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/5121beige_1_800x.jpg" alt=""></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/xhamperi.jpg" alt=""></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/pallta.jpg" alt=""></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/Aurelien_voyager_city_loafer_softey_suede_beige_men_1.jpg"
+                                alt=""></a>
+                    </div>
+                </div>
+
+                <div class="sh-djatht">
+                    <a href=""><img src="./icon/shigjeta-dj.png" alt=""></a>
+                </div>
+            </aside>
+
+        </article>
+
+
+        <div class="brands">
+            <img src="./Logo/NOBA.jpg" alt="">
+            <img src="./Logo/Belier.jpg" alt="">
+            <img src="./Logo/Lestrage.jpg" alt="">
+            <img src="./Logo/ICON.jpg" alt="">
+            <img src="./Logo/Nohow.jpg" alt="">
+            <img src="./Logo/aurelien.jpg" alt="">
+            <img src="./Logo/Zara.jpg" alt="">
+        </div>
+
+        <footer>
+            <div class="col-3">
+                <h1>Download Our App</h1>
+                <p>Download App for Android and ios mobile phone.</p>
+                <img src="./icon/apple-icon.png" alt="">
+                <img src="./icon/google-play-icon.png" alt="">
+
+            </div>
+
+            <div class="col-2">
+                <h1>HYDE</h1>
+                <p>Our goal is to constantly make our customers satisfied with our products.</p>
+            </div>
+
+            <div class="col-1">
+                <h1>Follow Us</h1>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>LinkedIn</p>
+                <p>X</p>
+            </div>
+
+            <div class="pjesa-d">
+                <h1>Links</h1>
+                <p>Coupons</p>
+                <p>Blog Post</p>
+                <p>Return Policy</p>
+                <p>Join Affiliate</p>
+
+            </div>
+        </footer>
+
+        <div class="cc">
+            <hr>
+            <p>©all cc rights reserved - <a style="color: blue;"> H Y D E</a></p>
+        </div>
+
+    </div>
+</body>
+
+</html>
