@@ -13,27 +13,35 @@
     <div class="Home">
 
         <header>
-            <p>WE OFFER YOU CLAS</p>
-            <!---- <p>UP TO 50% OFF</p> ---->
+            <div class="p1">
+                <p>WE OFFER QUALITY</p>
+            </div>
+
+            <div class="p2">
+                <p>UP TO 50% OFF</p>
+            </div>
+
+            <div class="p3">
+                <p>REGISTER NOW</p>
+            </div>
         </header>
 
         <div class="navbar">
 
             <nav>
                 <div id="logo">
-                    <p><a href="" id="href">hyde</a></p>
+                    <p><a href="./home.html" id="href">hyde</a></p>
                 </div>
 
                 <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Contact</a></li>
+                     <li><a href="./home.html">Home</a></li>
+                    <li><a href="./product.html">Product</a></li>
+                    <li><a href="./about.html">About</a></li>
                 </ul>
 
                 <div class="Login">
-                    <input type="search" id="srch" name="srch" placeholder="Search...">
-                    <a href=""><img src="./icon/bag1con.png" alt="bag"></a>
-                    <a href=""><img src="././icon/pro1con.png" alt="Login"></a>
+                    <li><a href="./Login.html">Log in</a></li>
+                    <li><a href="./Signup.html">Sign up</a></li>
                 </div>
             </nav>
         </div>
@@ -50,7 +58,7 @@
                 <div class="caption">
                     <p>let us be your partner in clothing cabin</p>
                     <p id="notw">We offer you Clas</p>
-                    <a href="">explore now</a>
+                    <a href="./product.html">explore now</a>
                 </div>
 
             </div>
@@ -67,20 +75,29 @@
                     <img src="./icon/shigjeta-mj.png" alt="">
                 </div>
 
-                <div class="col-4">
-                    <img src="./fotot/products/img.jpg30.jpg" alt="">
-                </div>
+                <div class="border">
 
-                <div class="col-4">
-                    <img src="./fotot/products/img.jpg29.jpg" alt="">
-                </div>
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/29_e81e84e0-d783-4339-b360-899e2493ca4e_900x.jpg"
+                                alt=""></a>
+                    </div>
 
-                <div class="col-4">
-                    <img src="./fotot/products/img.jpg33.jpg" alt="">
-                </div>
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/5121beige_1_800x.jpg" alt=""></a>
+                    </div>
 
-                <div class="col-4">
-                    <img src="./fotot/products/img.jpg34.jpg" alt="">
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/xhamperi.jpg" alt=""></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/pallta.jpg" alt=""></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><img src="./fotot/products/Aurelien_voyager_city_loafer_softey_suede_beige_men_1.jpg"
+                                alt=""></a>
+                    </div>
                 </div>
 
                 <div class="sh-djatht">
@@ -93,29 +110,28 @@
         <div class="special-pro">
 
             <div class="img">
-                <img src="./fotot/pexels-luchik-15030875.jpg" alt="">
+                <img src="./fotot/products/Special-produkt.JPG" alt="">
             </div>
 
             <div class="text">
                 <h1>have you ever heard about style?</h1>
                 <p>Step into a world where style meets simplicity. Syle isn’t just a trend, it’s a way of
-                    life.
-                    From timeless fashion pieces to modern essentials, we bring you everything to elevate your
-                    everyday.
-                    Discover the perfect blend of elegance and practicality, all in one place.</p>
+                    life. From timeless fashion pieces to modern essentials, we bring you everything to elevate your
+                    everyday. Discover the perfect blend of elegance and practicality, all in one place.</p>
 
-                <a href="">explore_more</a>
+                <a href="./product.html">explore_more</a>
             </div>
 
         </div>
 
         <div class="brands">
-            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
-            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
-            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
-            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
-            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
-            <img src="./fotot/Adidas-Logo-1991-present.jpg" alt="">
+            <img src="./Logo/NOBA.jpg" alt="">
+            <img src="./Logo/Belier.jpg" alt="">
+            <img src="./Logo/Lestrage.jpg" alt="">
+            <img src="./Logo/ICON.jpg" alt="">
+            <img src="./Logo/Nohow.jpg" alt="">
+            <img src="./Logo/aurelien.jpg" alt="">
+            <img src="./Logo/Zara.jpg" alt="">
         </div>
 
         <footer>
