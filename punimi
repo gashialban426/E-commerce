@@ -67,43 +67,29 @@
         <article>
             <div class="n-titull">
                 <p>Last Posted</p>
+                 <hr>
             </div>
-            <hr>
 
-            <aside id="rreshti">
-                <div class="sh-majt">
-                    <img src="./icon/shigjeta-mj.png" alt="">
-                </div>
-
-                <div class="border">
-
-                    <div class="col-4">
-                        <a href=""><img src="./fotot/products/29_e81e84e0-d783-4339-b360-899e2493ca4e_900x.jpg"
-                                alt=""></a>
-                    </div>
-
-                    <div class="col-4">
-                        <a href=""><img src="./fotot/products/5121beige_1_800x.jpg" alt=""></a>
-                    </div>
-
-                    <div class="col-4">
-                        <a href=""><img src="./fotot/products/xhamperi.jpg" alt=""></a>
-                    </div>
-
-                    <div class="col-4">
-                        <a href=""><img src="./fotot/products/pallta.jpg" alt=""></a>
-                    </div>
-
-                    <div class="col-4">
-                        <a href=""><img src="./fotot/products/Aurelien_voyager_city_loafer_softey_suede_beige_men_1.jpg"
-                                alt=""></a>
-                    </div>
-                </div>
-
-                <div class="sh-djatht">
-                    <img src="./icon/shigjeta-dj.png" alt="">
-                </div>
-            </aside>
+            <aside class="container">
+                <div class="slider-wrapper">
+                    <div class="image-list">
+                        <a href="./single-product3.html"><img src="./fotot/products/5121beige_1_800x.jpg" alt=""
+                                class="image-item"></a>
+                        <a href="./single-product7.html"><img src="./fotot/products/xhamperi.jpg" alt=""
+                                class="image-item"></a>
+                        <a href="./single-product5.html"><img src="./fotot/products/pallta.jpg" alt=""
+                                class="image-item"></a>
+                        <a href="./single-product6.html"><img
+                                src="./fotot/products/Aurelien_voyager_city_loafer_softey_suede_beige_men_1.jpg" alt=""
+                                class="image-item"></a>
+                        <a href="./single-product4.html"><img
+                                src="./fotot/products/29_e81e84e0-d783-4339-b360-899e2493ca4e_900x.jpg" alt=""
+                                class="image-item"></a>
+                        <a href="./single-product1.html"><img src="./fotot/products/bluza.JPG" alt=""
+                                class="image-item"></a>
+                     </div>
+                 </div>
+              </aside>
 
         </article>
 
@@ -119,7 +105,7 @@
                     life. From timeless fashion pieces to modern essentials, we bring you everything to elevate your
                     everyday. Discover the perfect blend of elegance and practicality, all in one place.</p>
 
-                <a href="./product.html">explore_more</a>
+                <a href="./special-product2.html">explore_more</a>
             </div>
 
         </div>
