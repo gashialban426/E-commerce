@@ -196,13 +196,15 @@ article .n-titull{
   height: 50px;
   width: 100%;
   display: flex;
-  margin: auto;
+  flex-direction: column;
   margin-top: 25px;
+  width: 30%;
+ margin-left: 3.2%;
 }
 .n-titull p{
   font-size: 30px;
   margin: auto;
-  margin-left: 2.5%;
+  margin-left: 0px;
   padding: 0;
 }
 .n-titull hr{
@@ -210,7 +212,7 @@ article .n-titull{
   width: 80%;
   margin:0px;
 }
-#rreshti{
+.container{
   position: relative;
   width: 100%;
   height: 280px;
@@ -219,38 +221,35 @@ article .n-titull{
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.border{
+.slider-wrapper{
   border: 1px solid black;
   width: 100%;
   height: 280px;
-  margin: auto;
+  flex-wrap: nowrap;
   overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.image-list{
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 30px;
 }
-#rreshti .sh-majt, .sh-djatht{
-  height: 100%;
-  width: 40px;
-  display: flex;
-  align-items: center;
-}
-#rreshti .sh-majt img, .sh-djatht img{
- height: 28px;
- width: auto;
- margin: auto;
-margin-left: 15px;
-}
-.col-4{
+.image-list img{
   height: 280px;
   width: 200px;
-  display: flex;
-  flex-direction: row;
-}
- .col-4 img{
   object-fit: cover;
-  height: 100%;
-  width: 200px;
+}
+.slider-wrapper .image-list {
+  font-size: 0;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
 }
 /*---------Special Product----------*/
 .special-pro{
@@ -406,7 +405,6 @@ margin: auto;
   position: relative ;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .kolona{
   height: 100%;
@@ -434,18 +432,21 @@ margin: auto;
 }
 .kryesore,
 .k-2, 
-.k-3{
+.k-3,
+.k-4{
   height: 100%;
   width: 80%;
   margin: auto;
 }
 .kryesore img,
 .k-2 img,
-.k-3 img{
+.k-3 img,
+.k-4 img{
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+.k-1,
 .k-2,
 .k-3{
  position: absolute;
@@ -461,6 +462,7 @@ margin: auto;
   color: black;
   font-size: 28px;
   margin-bottom: 5px;
+  text-transform: capitalize;
 }
 .inf a{
   color: black;
@@ -480,7 +482,6 @@ margin: auto;
   font-size: 14px;
   border: 1px solid black;
   margin-bottom: 5px;
-
 }
 .inf input{
   width: 40px;
@@ -507,227 +508,6 @@ margin: auto;
   background-color: lightskyblue;
 }
 /*-------------Login--------------*/
-.Mesi{
-  height: 585px;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-}
-.Lmiddle{
-  height: 80%;
-  width: 30%;
-  margin: auto;
-}
-fieldset{
-  height: 100%;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
-  border: 1px solid black;
-}
-.input{
-  height: 60%;
-  margin: auto;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-}
-.input p{
-  color: #5f5f5f;
-  font-size:14px;
-  float: right;
-  height: 0%;
-  width: auto;  
-  text-align: right;
-  margin-top: 10px;
-}
-fieldset p{
-  text-align: center;
-  font-size: 25px;
-  margin-bottom: 0px;
-}
-fieldset input{
-  height: 35px;
-  width: auto;
-  font-size: 14px;
-  font-family: 'Cabini', sans-serif;
-  margin-top: 0px;
-}
-fieldset #label{
-  margin-top: 15px;
-}
-fieldset label{
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-fieldset a{
-  height: 30px;
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 30px;
- text-align: center;
-  margin: auto;
-  background-color: #ebeaea;
-  color: black;
-  text-decoration: none;
-  font-size: 14px;
-  padding-top: 5px;
-}
-fieldset a:hover{
-  background-color: #5f5f5f;
-  color: white;
-  transition: 0.5s ease;
-}
-/*------------footer-------------*/
-footer{
-  background-color: #121212;
-  height: 180px;
-  width: 100%;
-  display: flex;
-}
-.col-1, .col-2, .col-3, .col-5, .pjesa-d{
-  margin: auto;
-  overflow: hidden;
-  color: white; 
-  position: relative;
-}
-.col-1 p{
-  margin: 0px; 
-}
-.col-1 h1{
-  margin-top: 0px;
-  font-size: 24px;
-}
-.col-1, .pjesa-d, .col-5{
-  width: 15%;
-  height: 150px;
-  margin: auto;
-  margin-top: 40px;
-}
-.col-2{
-  width: 30%;
-  height: 150px;
-  margin-top: 40px;
-}
-.col-2 h1{
-  font-size: 52px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-}
-.col-3{
-  width: 30%;
-  height: 150px;
-  margin: auto;
-  margin-top: 40px;
-}
-.col-3 img{
-  height: 43px;
-  margin: auto;
-}
-.col-3 h1{
-  font-size: 24px;
-  margin-top: 0px;
-}
-.pjesa-d{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-}
-.pjesa-d h1{
-  margin-top: 0px;
-  font-size: 24px;
-}
-.pjesa-d p{
-  margin: 0px;
-}
-.cc{
-  height: 50px;
-  width: 100%;
-  margin: auto;
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  background-color: #121212;
-  padding-bottom: 50px;
-}
-.cc hr{
-  position:relative;
-  width: 90%;
-}
-.cc p{
-  color: white;
-  margin: auto;
-  margin-bottom: 50px;
-}
-/*-----------Keyframe-animation------------*/
-
-header .p1{
-  animation: txtanimation 10s linear infinite;
-}
-header .p2{
-  animation: txtanimation2 10s linear infinite;
-}
-header .p3{
-  animation: txtanimation3 10s linear infinite;
-}
-
-@keyframes txtanimation{
-  0%{
-    visibility: visible;
-  }
-  25%{
-    visibility: hidden;
-  }
-  50%{
-    visibility: hidden;
-  }
-  75%{
-    visibility: hidden;
-  }
-  100%{
-    visibility: hidden;
-  }
-}
-@keyframes txtanimation2{
-  0%{
-    visibility: hidden;
-  }
-  25%{
-    visibility: hidden;
-  }
-  50%{
-    visibility: visible;
-  }
-  75%{
-    visibility: hidden;
-  }
-  100%{
-    visibility: hidden;
-  }
-}
-@keyframes txtanimation3{
-  0%{
-    visibility: hidden;
-  }
-  25%{
-    visibility: hidden;
-  }
-  50%{
-    visibility: hidden;
-  }
-  75%{
-    visibility: hidden;
-  }
-  100%{
-    visibility: visible;
-  }
-}
 .Mesi{
   height: 585px;
   width: 100%;
@@ -815,7 +595,7 @@ fieldset button{
   width: 100%;
   border: 1px solid black;
   border-radius: 30px;
-  text-align: center;
+ text-align: center;
   margin: auto;
   margin-top: 10px;
   background-color: #ebeaea;
@@ -829,7 +609,6 @@ fieldset button:hover{
   transition: 0.5s ease;
 }
 /*------------footer-------------*/
-
 footer{
   background-color: #121212;
   height: 180px;
@@ -912,7 +691,7 @@ footer{
   margin-bottom: 50px;
 }
 
-/*-----------Keyframe-animation-header------------*/
+/*-----------Keyframe-animation-header-----------*/
 
 header .p1{
   animation: txtanimation 10s linear infinite;
