@@ -728,4 +728,368 @@ header .p3{
     visibility: visible;
   }
 }
+.Mesi{
+  height: 585px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.Lmiddle{
+  height: 80%;
+  width: 30%;
+  margin: auto;
+}
+fieldset{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+}
+fieldset form{
+  height: 100%;
+  width: 100%;
+  border-color: #f06272;
+  position: relative;
+}
+form #error-message{
+  color: #f06272;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  margin-top: 5px;
+}
+.incorrect{
+  height: 80%;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.incorrect p{
+  color: #5f5f5f;
+  font-size:14px;
+  float: right;
+  height:auto;
+  width: auto;
+  margin: auto;
+  margin-bottom: 0px;
+}
+.incorrect a{
+ color: #121212;
+ text-decoration: none;
+}
+.incorrect a:hover{
+  color: blue;
+  transition: .5s ease;
+}
+fieldset p{
+  text-align: center;
+  font-size: 25px;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+fieldset input{
+  height: 35px;
+  width: auto;
+  font-size: 14px;
+  font-family: 'Cabini', sans-serif;
+  margin-top: 0px;
+}
+fieldset #label{
+  margin-top: 10px;
+}
+fieldset label{
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+fieldset button{
+  height: 30px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #ebeaea;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+fieldset button:hover{
+  background-color: #5f5f5f;
+  color: white;
+  transition: 0.5s ease;
+}
+/*------------footer-------------*/
+
+footer{
+  background-color: #121212;
+  height: 180px;
+  width: 100%;
+  display: flex;
+}
+.col-1, .col-2, .col-3, .col-5, .pjesa-d{
+  margin: auto;
+  overflow: hidden;
+  color: white; 
+  position: relative;
+}
+.col-1 p{
+  margin: 0px; 
+}
+.col-1 h1{
+  margin-top: 0px;
+  font-size: 24px;
+}
+.col-1, .pjesa-d, .col-5{
+  width: 15%;
+  height: 150px;
+  margin: auto;
+  margin-top: 40px;
+}
+.col-2{
+  width: 30%;
+  height: 150px;
+  margin-top: 40px;
+}
+.col-2 h1{
+  font-size: 52px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+.col-3{
+  width: 30%;
+  height: 150px;
+  margin: auto;
+  margin-top: 40px;
+}
+.col-3 img{
+  height: 43px;
+  margin: auto;
+}
+.col-3 h1{
+  font-size: 24px;
+  margin-top: 0px;
+}
+.pjesa-d{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.pjesa-d h1{
+  margin-top: 0px;
+  font-size: 24px;
+}
+.pjesa-d p{
+  margin: 0px;
+}
+.cc{
+  height: 50px;
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  padding-bottom: 50px;
+}
+.cc hr{
+  position:relative;
+  width: 90%;
+}
+.cc p{
+  color: white;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/*-----------Keyframe-animation-header------------*/
+
+header .p1{
+  animation: txtanimation 10s linear infinite;
+}
+header .p2{
+  animation: txtanimation2 10s linear infinite;
+}
+header .p3{
+  animation: txtanimation3 10s linear infinite;
+}
+
+@keyframes txtanimation{
+  0%{
+    visibility: visible;
+  }
+  25%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: hidden;
+  }
+  75%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes txtanimation2{
+  0%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: visible;
+  }
+  75%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes txtanimation3{
+  0%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: hidden;
+  }
+  75%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+/*-----------keyframe-animation-specialp----------*/
+.k-1 img{
+  animation: fotoanimation 10s linear infinite
+}
+.k-2 img{
+  animation: fotoanimation2 10s linear infinite
+}
+.k-3 img{
+  animation: fotoanimation3 10s linear infinite
+}
+.k-4 img{
+  animation: fotoanimation4 10s linear infinite
+}
+@keyframes fotoanimation{
+  0%{
+    visibility: visible;
+  }
+  15%{
+    visibility: visible;
+  }
+  25%{
+    visibility: hidden;
+  }
+  40%{
+    visibility: hidden;
+  }
+  55%{
+    visibility: hidden;
+  }
+  70%{
+    visibility: hidden;
+  }
+  85%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes fotoanimation2{
+  0%{
+    visibility: hidden;
+  }
+  15%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  40%{
+    visibility: visible;
+  }
+  55%{
+    visibility: hidden;
+  }
+  70%{
+    visibility: hidden;
+  }
+  85%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes fotoanimation3{
+  0%{
+    visibility: hidden;
+  }
+  15%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  40%{
+    visibility: hidden;
+  }
+  55%{
+    visibility: hidden;
+  }
+  70%{
+    visibility: visible;
+  }
+  85%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes fotoanimation4{
+  0%{
+    visibility: hidden;
+  }
+  15%{
+    visibility: hidden;
+  }
+  25%{
+    visibility: hidden;
+  }
+  40%{
+    visibility: hidden;
+  }
+  55%{
+    visibility: hidden;
+  }
+  70%{
+    visibility: hidden;
+  }
+  85%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
 
