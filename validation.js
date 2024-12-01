@@ -1,3 +1,4 @@
+//Login Signup part
 const div = document.getElementById("input");
 const firstname_input = document.getElementById("firstname-input");
 const email_input = document.getElementById("email-input");
@@ -88,7 +89,7 @@ allInputs.forEach((input) => {
   });
 });
 
-//Prej qitu o sllajderi
+//Slider part
 
 const initSlider = () => {
   const imageList = document.querySelector(".slider-wrapper .image-list");
