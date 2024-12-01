@@ -117,19 +117,20 @@
 
         <div class="special-pro">
 
-            <div class="img">
+        <div class="img">
                 <img src="./fotot/products/Capture.JPG" alt="">
             </div>
 
             <div class="text">
-                <h1>have you ever heard about style?</h1>
-                <p>Step into a world where style meets simplicity. Syle isn’t just a trend, it’s a way of
-                    life.
-                    From timeless fashion pieces to modern essentials, we bring you everything to elevate your
-                    everyday.
-                    Discover the perfect blend of elegance and practicality, all in one place.</p>
+                <h1>Ready to redefine effortless sophistication?</h1>
+                <p>Step into a world where cozy meets classy. The Constance Half-Zip Sweater combines warmth with a
+                    refined edge,
+                    paired perfectly with the sleek Amista Pantalon for an elevated casual look.
+                    Complete the outfit with Suede Shoes, a timeless addition for all-day comfort,
+                    and the Pladen Stainless Steel Watch, a luxurious accessory that adds a touch of modern elegance.
+                    Style and functionality, perfectly intertwined.</p>
 
-                <a href="">explore_more</a>
+                <a href="./special-product1.html">explore_more</a>
             </div>
 
         </div>
@@ -140,54 +141,54 @@
                 <hr>
             </div>
 
-            <div class="col-6">
+<div class="col-6">
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/womensh.png"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product9.html"><img src="./fotot/products/womensh.png"></a>
+                    <h1>Alaina Casual Shirt</h1>
+                    <p>44,50<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/jacketwo.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product10.html"><img src="./fotot/products/jacketwo.jpg"></a>
+                    <h1>Fiona Denim Jacket</h1>
+                    <p>49,50<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/setwo.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product11.html"><img src="./fotot/products/setwo.jpg"></a>
+                    <h1>Coat With Wool</h1>
+                    <p>69.95<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/woshoes.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product13.html"><img src="./fotot/products/woshoes.jpg"></a>
+                    <h1>Chelsea Ankle Boots</h1>
+                    <p>39,95<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/acswo.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product12.html"><img src="./fotot/products/acswo.jpg"></a>
+                    <h1>Geneve Lady Watch</h1>
+                    <p>47,00<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/pantswo.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product16.html"><img src="./fotot/products/pantswo.jpg"></a>
+                    <h1>Interlock Jogger Trousers</h1>
+                    <p>49,99<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/womenpa.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product14.html"><img src="./fotot/products/womenpa.jpg"></a>
+                    <h1>Double-Faced Coat</h1>
+                    <p>79.95<a style="background-color: lightgreen;">$</a></p>
                 </div>
 
                 <div class="product">
-                    <a href=""><img src="./fotot/products/bagwo.jpg"></a>
-                    <h1>Product Name</h1>
-                    <p>29.99<a style="background-color: lightgreen;">$</a></p>
+                    <a href="./single-product15.html"><img src="./fotot/products/bagwo.jpg"></a>
+                    <h1>Shopper Bag</h1>
+                    <p>29.95 <a style="background-color: lightgreen;">$</a></p>
                 </div>
 
             </div>
@@ -200,15 +201,14 @@
                 <img src="./fotot/products/woset2.jpg" alt="">
             </div>
 
-            <div class="text">
-                <h1>have you ever heard about style?</h1>
-                <p>Step into a world where style meets simplicity. Syle isn’t just a trend, it’s a way of
-                    life.
-                    From timeless fashion pieces to modern essentials, we bring you everything to elevate your
-                    everyday.
-                    Discover the perfect blend of elegance and practicality, all in one place.</p>
+         <div class="text">
+                <h1>Ever wondered what true elegance feels like?</h1>
+                <p>Step into a realm where grace meets comfort.
+                    Style isn’t just what you wear, it’s how you carry yourself. From effortless wardrobe essentials
+                    to iconic accessories, redefine your everyday with pieces that balance sophistication and
+                    functionality. Embrace timeless fashion that speaks to your unique flair.</p>
 
-                <a href="">explore_more</a>
+                <a href="./special-product3.html">explore_more</a>
             </div>
 
         </div>
