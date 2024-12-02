@@ -173,6 +173,30 @@
         </div>
 
     </div>
+ <script>
+        var fullImg = document.getElementById("fullImg");
+        var smallimg = document.getElementsByClassName("smallimg");
+
+        smallimg[0].onclick = function () {
+            fullImg.src = smallimg[0].src;
+        }
+
+        smallimg[1].onclick = function () {
+            fullImg.src = smallimg[1].src;
+        }
+
+        smallimg[2].onclick = function () {
+            fullImg.src = smallimg[2].src;
+        }
+
+        smallimg[3].onclick = function () {
+            fullImg.src = smallimg[3].src;
+        }
+
+        smallimg[4].onclick = function () {
+            fullImg.src = smallimg[4].src;
+        }
+    </script>
 </body>
 
 </html>
